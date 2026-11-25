@@ -1,0 +1,11 @@
+DecisionTreeClassificationModel: uid=DecisionTreeClassifier_84abca438c9b, depth=3, numNodes=7, numClasses=2, numFeatures=14
+  If (feature 0 in {1.0,2.0,3.0})
+   If (feature 0 in {3.0})
+    If (feature 13 <= 11.5)
+     Predict: 0.0
+    Else (feature 13 > 11.5)
+     Predict: 1.0
+   Else (feature 0 not in {3.0})
+    Predict: 1.0
+  Else (feature 0 not in {1.0,2.0,3.0})
+   Predict: 0.0
